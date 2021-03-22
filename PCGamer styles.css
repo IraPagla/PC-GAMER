@@ -1,0 +1,188 @@
+
+        .head{
+            background-color: #000;
+            width: 100%;
+            height: 110px;
+        }
+        body{
+            font-family: 'Comic Sans MS';
+            font-size: 20px;
+            background-color: #ddd;
+        }
+        a{
+            text-decoration: 0;
+        }
+        .container1{
+            display: flex;
+            height: 70px;
+            width: fit-content;
+            flex-wrap: wrap;
+            margin: auto;
+            align-items: center;
+            color: #fff;
+        }
+        .navbar{
+            margin: 0 auto;
+            width: fit-content;
+            height: fit-content;
+        }
+        .navpart{
+            display: inline-block;
+            height: fit-content;
+            width: fit-content;
+            text-align: center;
+        }
+        .navlink{
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 2em;
+            display: inline-block;
+        }
+        .navlink:hover{
+            background-color: #000;
+        }
+        .container2{
+            width: 1000px;
+            height: fit-content;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .trending{
+            color: #000;
+            font-size: 15px;
+            text-decoration: 0;
+            padding: 0.5em 0;
+        }
+        .trending:hover{
+            text-decoration: underline;
+        }
+        .idk{
+            width: 100%;
+            background-color: #fff;
+            height: fit-content;
+            justify-content: space-around;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .info{
+            height: fit-content;
+            width: fit-content;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+            margin: 10px;
+        }
+        .info:hover{
+            color: #f00;
+        }
+        .label{
+            background-color: #f008;
+            color: #fff;
+            padding: 0.5em;
+            height: fit-content;
+            width: fit-content;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        .mention{
+            background-color: #000;
+            text-decoration: bold;
+            height: fit-content;
+            padding: 0.5em 0;
+            text-align: center;
+            display: block;
+            width: 100%;
+        }
+        .verybig{
+            width: 300px;
+            height: fit-content;
+        }
+        .huh{
+            color: #000;
+        }
+        .huh:hover{
+            color: #f00;
+        }
+        .tough{
+            height: fit-content;
+            width: 660px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .LATEST_UPDATES{
+            border: solid #888;
+            border-width: 1px 0px;
+            width: 100%;
+            height: fit-content;
+            padding: 0.5em;
+            text-align: center;
+            margin: 20px 0px;
+        }
+        .fps{
+            width: fit-content;
+            height: fit-content;
+            position: relative;
+            color: #fff;
+            background-color: #000;
+            margin: 10px;
+        }
+        .playfps{
+            position: absolute;
+            background-color: #000a;
+            padding: 10px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            width: 960px;
+            height: fit-content;
+            display: block;
+        }
+        .fps:hover{
+            color: #f00;
+        }
+        .foot{
+            background-color: #888;
+            height: fit-content;
+            width: 100%;
+            color: #fff;
+            text-align: center;
+        }
+        .container3{
+            width: 1000px;
+            height: fit-content;
+            margin: 0 auto;
+        }
+        .footlink{
+            color: #fff;
+        }
+        .footlink:hover{
+            text-decoration: underline;
+        }
+        .footpara{
+            border: #fff solid;
+            border-width: 0px 0px 1px 0px;
+            padding: 20px;
+        }
+        .news{
+            height: fit-content;
+            width: 1000px;
+            position: relative;
+            color: #000;
+            border: #888 solid;
+            border-width: 0px 0px 1px 0px;
+            padding: 20px 0px;
+        }
+        .newstext{
+            position: absolute;
+            top: 20px;
+            left: 270px;
+            display: block;
+            height: fit-content;
+        }
+        .news:hover{
+            color: #f00;
+        }
